@@ -1,0 +1,63 @@
+/* (c) 1995-2019 Healthwise, Incorporated. Healthwise, Healthwise for every health decision,
+ * and the Healthwise logo are trademarks of Healthwise, Incorporated.
+ * Version: 12.4 (build 12.4.0.0 2019-12-26 10:26)
+ */
+
+#SxWhyAskDiv{margin-top:10px;padding:4px 7px 2px 4px}
+.SxWhyAskAccordion{display:inline-block}
+.SxWhyAskAccordionArrow_Up{transform:translateY(30%) rotate(45deg)}
+.SxWhyAskAccordionArrow_Down{transform:translateY(-10%) rotate(-135deg)}
+*:focus{outline:2px dotted black!important;outline-offset:1px!important}
+#SxWhyAskAccordionArrow{width:.5em;height:.5em;border-top-left-radius:2px;margin-left:1em;border-left:2px solid darkgray;border-top:2px solid darkgray}
+div#SxWhyAskDiv div#SxWhyAskBodyDiv div#SxWhyAskParaDiv ul li{padding-top:5px;padding-bottom:5px}
+#SxWhyAskAccordianBtn{font-family:arial;font-size:12px;cursor:pointer;width:auto;line-height:1.5em;text-align:center;margin-bottom:8px;background-color:transparent;border:0}
+#SxWhyAskBodyDiv{display:none;line-height:1.4em}
+#HwSxBody{padding-left:0;padding-right:0;font-family:Arial,sans-serif}
+#definition-modal,#search-modal{font-family:Arial,sans-serif}
+body .HwSxBs.modal{left:10%;width:auto;margin-left:10%;margin-right:10%;bottom:auto}
+a{color:#015c9a}
+#HwSxBody .HwSxQuestion{outline:none!important}
+#HwSxBody .HwSxQuestionText{font-weight:bold;padding:10px;font-size:1.2em}
+#HwSxBody .HwSxQuestionSubText{padding:10px;margin-bottom:20px}
+#HwSxBody span.bold{font-weight:bold}
+#HwSxBody div.HwSxDefinition,.HwSxTitle,.HwSxDisposition,.HwSxAnswerSummary{display:none}
+#HwSxBody .HwSxDisposition{outline:0}
+#HwSxBody .HwSxAnswerSet{margin-bottom:20px;text-align:center}
+#HwSxBody .HwSxAnswerText{min-width:150px;width:30%;max-width:240px;margin-bottom:10px;padding-right:10px;text-shadow:none}
+#HwSxBody .HwSxSelected.HwSxAnswerText{color:white;background:#4B8Ca4;background-image:-webkit-gradient(linear,0 0,0 100%,from(#4B8Ca4),to(#1B5C74));background-image:-moz-gradient(linear,left top,left bottom,color-stop(0%,#4B8Ca4),color-stop(100%,#1B5C74));background-image:-moz-linear-gradient(top,#4B8Ca4,#1B5C74);background-image:-ms-gradient(linear,left top,left bottom,color-stop(0%,#4B8Ca4),color-stop(100%,#1B5C74));background-image:-o-gradient(linear,left top,left bottom,color-stop(0%,#4B8Ca4),color-stop(100%,#1B5C74));background-image:gradient(linear,left top,left bottom,color-stop(0%,#4B8Ca4),color-stop(100%,#1B5C74));filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#4B8Ca4',endColorstr='#1B5C74',GradientType=0);-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#4B8Ca4', endColorstr='#1B5C74')"}
+#HwSxBody .HwSxSelected.HwSxAnswerText:hover{background-position:left top;background:#1B5C74;background-image:-webkit-gradient(linear,0 0,0 100%,from(#1B5C74),to(#4B8Ca4));background-image:-moz-gradient(linear,left top,left bottom,color-stop(0%,#1B5C74),color-stop(100%,#4B8Ca4));background-image:-moz-linear-gradient(top,#1B5C74,#4B8Ca4);background-image:-ms-gradient(linear,left top,left bottom,color-stop(0%,#1B5C74),color-stop(100%,#4B8Ca4));background-image:-o-gradient(linear,left top,left bottom,color-stop(0%,#1B5C74),color-stop(100%,#4B8Ca4));background-image:gradient(linear,left top,left bottom,color-stop(0%,#1B5C74),color-stop(100%,#4B8Ca4));filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1B5C74',endColorstr='#4B8Ca4',GradientType=0);-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#1B5C74', endColorstr='#4B8Ca4')"}
+#HwSxBody .HwSxControls{background-color:#e6e6e6;height:40px;margin-top:20px;padding-left:20px;padding-right:20px;border-bottom:2px solid #e0e0e0;position:relative}
+#HwSxControls .HwSxStartOver,#HwSxControls .HwSxPrevious{border:2px solid #555;color:white;cursor:pointer;background-color:#555;height:19px;top:10px;margin:0;padding:0 15px;position:relative;text-align:center;line-height:19px;vertical-align:middle}
+#HwSxControls .HwSxPreviousArrow{display:none}
+#HwSxControls .HwSxPrevious{float:left}
+#HwSxControls .HwSxStartOver{display:none;float:right}
+#HwSxControls .HwSxVersion{color:#e6e6e6;font-size:.8em;position:absolute;left:50%;top:5px}
+#HwSxBody .HwSxTabAnswerFocus{border:1px solid #000;outline:1px solid #000}
+#HwSxBody .HwSxTabControlFocus{border:2px solid #000;outline:1px solid #000}
+#HwSxBody .HwSxTabLinkFocus{border:1px solid #000;outline:1px solid #000}
+#definition-modal .HwSxTabModalCloseFocus{border:2px solid transparent;outline:1px solid transparent;opacity:.7}
+#definition-modal .HwSxTabModalCloseFocus:hover,#definition-modal .HwSxTabModalCloseFocus:focus{border:2px solid #000;outline:1px solid #000;opacity:1}
+#search-modal .HwSxTabModalButtonFocus{border:1px solid transparent;outline:1px solid transparent;opacity:.7}
+#search-modal .HwSxTabModalButtonFocus:hover,#search-modal .HwSxTabModalButtonFocus:focus{border:1px solid #000;outline:1px solid #000;opacity:1}
+.HwAccessibilityText{display:block;position:absolute;height:1px;width:1px;clip:rect(1px,1px,1px,1px);overflow:hidden;background:transparent}
+#HwSxBody .HwSxDisposition .HwSxDispositionHeading{height:auto;min-height:60px;padding-bottom:10px;font-size:2.2em;background-repeat:no-repeat;background-position:10px 10px;padding-left:90px;padding-top:20px;font-weight:normal}
+#HwSxBody .HwSxDisposition_emergency .HwSxDispositionHeading{background-color:#E0EBF5}
+#HwSxBody .HwSxDisposition_red .HwSxDispositionHeading{background-color:#FAC6C8}
+#HwSxBody .HwSxDisposition_yellow .HwSxDispositionHeading{background-color:#FEE7C4}
+#HwSxBody .HwSxDisposition_black .HwSxDispositionHeading{background-color:#BFBFBF}
+#HwSxBody .HwSxDisposition_green .HwSxDispositionHeading{background-color:#D2EAD0}
+#HwSxBody .HwSxDisposition_emergency .HwSxDispositionHeading{background-image:url(images/consumer/emergency.png)}
+#HwSxBody .HwSxDisposition_red .HwSxDispositionHeading{background-image:url(images/consumer/red.png)}
+#HwSxBody .HwSxDisposition_yellow .HwSxDispositionHeading{background-image:url(images/consumer/yellow.png)}
+#HwSxBody .HwSxDisposition_black .HwSxDispositionHeading{background-image:url(images/consumer/black.png)}
+#HwSxBody .HwSxDisposition_green .HwSxDispositionHeading{background-image:url(images/consumer/green.png)}
+#HwSxBody .HwSxDispositionActionText{font-style:italic;padding:10px 30px 0 30px}
+#HwSxBody .HwSxDispositionNextSteps{padding:10px 30px 0 30px;font-size:1.1em}
+#HwSxBody .HwSxDispositionNextSteps ul{margin:0}
+#HwSxBody .HwSxDispositionAdditionalSteps{margin:10px 30px 10px 30px;padding:15px 20px 10px 20px;border:1px solid #888;-moz-box-shadow:0 0 10px #777;-ms-box-shadow:0 0 10px #777;-o-box-shadow:0 0 10px #777;-webkit-box-shadow:0 0 10px #777;box-shadow:0 0 10px #777}
+#HwSxBody .HwSxDispositionLinks{border-top:1px solid #ccc;margin:5px 30px 15px 30px;padding-top:5px;margin-top:20px}
+#HwSxBody .HwSxDispositionLinks div{padding-bottom:5px}
+#HwSxBody .HwClear{clear:both}
+#search-modal .btn{margin-top:1em;width:90%}
+#HwSxBody a.HwSxDefinition{cursor:pointer}
+#HwSxBody .additional img{padding-left:.25em}

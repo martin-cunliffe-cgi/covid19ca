@@ -1,0 +1,262 @@
+﻿
+
+/* #################################################### Tablet #################################################### */
+@media screen and (max-width: 1039px) {
+
+    .modal {
+        width: 80%;
+        left: auto;
+        margin-left: 10%;
+    }
+
+    .modal-body {
+        text-align: center;
+    }
+
+    .modal-body > *{
+        text-align: left;
+    }
+    .modal-body .btn
+    {
+        text-align: center;
+    }
+
+    .btn-small {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+}
+
+
+/* #################################################### Mobile #################################################### */
+@media screen and (max-width: 767px)
+{
+
+    .HwTypeSymptom .HwContentHeader,
+    #HwSxControls .HwSxVersion
+    {
+        display: none;
+    }
+
+    #HwSxBody {
+        border: none;
+    }
+
+
+    /* Questions */
+
+    #HwSxBody .HwSxQuestionSubText {
+        padding: 0 10px;
+        font-size: .9rem;
+    }
+
+    #HwSxBody .HwSxQuestionText {
+        font-size: 1.3rem;
+    }
+
+
+    /* Answers */
+
+    #HwSxBody .HwSxAnswerSet {
+        margin: 0;
+        padding: 0;
+        position: relative;
+
+        font-family: Arial,Helvetica,sans-serif;
+        text-decoration: none;
+        
+        border: 1px solid #ccc;
+        
+        font-weight: bold;
+        
+        text-shadow: none;
+        -moz-box-shadow: 0 1px 4px #CCC;
+        -moz-box-shadow: 0 1px 4px rgba(0,0,0,.3);
+        -webkit-box-shadow: 0 1px 4px #CCC;
+        -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.3);
+        box-shadow: 0 1px 4px #CCC;
+        box-shadow: 0 1px 4px rgba(0,0,0,.3);
+
+        -moz-border-radius: .6rem;
+        -webkit-border-radius: .6rem;
+        border-radius: .6rem;
+    }
+
+    #HwSxBody .HwSxAnswerSet .HwSxAnswer
+    {
+        width: 100%;
+    }
+
+
+    #HwSxBody .HwSxAnswerSet .HwSxAnswer .HwSxAnswerText {
+        margin: 0;
+        
+        width: 100%;
+        display: block;
+        border-radius: 0;
+        max-width: none;
+        min-width: 0;
+
+        font: bold 1rem Arial,Helvetica,sans-serif;
+        padding: 12px 0;
+        border: none;
+
+        background: #fdfdfe;
+        background-image: -webkit-linear-gradient(top,#fdfdfe,#cccccc);
+        background-image: -moz-linear-gradient(top,#fdfdfe,#cccccc);
+        background-image: -ms-linear-gradient(top,#fdfdfe,#cccccc);
+        background-image: linear-gradient(top,#fdfdfe,#cccccc);
+        color: #444;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        
+    }
+
+    #HwSxBody .HwSxAnswerSet .HwSxAnswer:first-child .HwSxAnswerText {
+        -webkit-border-top-right-radius: .6rem;
+        -moz-border-radius-topright: .6rem;
+        border-top-right-radius: .6rem;
+        -webkit-border-top-left-radius: .6rem;
+        -moz-border-radius-topleft: .6rem;
+        border-top-left-radius: .6rem;
+    }
+    
+    #HwSxBody .HwSxAnswerSet .HwSxAnswer:last-child .HwSxAnswerText {
+        -webkit-border-bottom-right-radius: .6rem;
+        -moz-border-radius-bottomright: .6rem;
+        border-bottom-right-radius: .6rem;
+        -webkit-border-bottom-left-radius: .6rem;
+        -moz-border-radius-bottomleft: .6rem;
+        border-bottom-left-radius: .6rem;
+    }
+
+    #HwSxBody .HwSxAnswerSet .HwSxAnswer .HwSxAnswerText:hover {
+        background: #dadada;
+        background-image: -webkit-linear-gradient(top,#ededed,#dadada);
+        background-image: -moz-linear-gradient(top,#ededed,#dadada);
+        background-image: -ms-linear-gradient(top,#ededed,#dadada);
+        background-image: linear-gradient(top,#ededed,#dadada);
+    }
+
+
+    #HwSxBody .HwSxAnswerSet .HwSxAnswer .HwSxSelected,
+    #HwSxBody .HwSxAnswerSet .HwSxAnswer .HwSxSelected:hover {
+        color: #FFF;
+        text-shadow: none;
+        background: #1b5c74;
+        background-image: -webkit-linear-gradient(top,#2BAAEB,#144870);
+        background-image: -moz-linear-gradient(top,#2BAAEB,#144870);
+        background-image: -ms-linear-gradient(top,#2BAAEB,#144870);
+        background-image: -o-linear-gradient(top,#2BAAEB,#144870);
+        background-image: linear-gradient(top,#2baaeb,#144870);
+    }
+
+
+    /* Bottom Navigation */
+    #HwSxBody .HwSxControls {
+        background:none;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+
+    #HwSxBody .HwSxDispositionLinks div a {
+        color: #101010;
+        text-decoration: none;
+    }
+
+        #HwSxBody .HwSxPrevious,
+        #HwSxBody .HwSxStartOver,
+        #HwSxBody .HwSxDispositionLinks div.HwSxHomeTreatmentLink,
+        #HwSxBody .HwSxDispositionLinks div.HwSxRelatedInformationLink,
+        #HwSxBody .HwSxDispositionLinks div.HwSxWhereToGoLink {
+            display: block;
+            width: 98%;
+            text-align: center;
+            cursor: pointer;
+            position: relative;
+            margin: .5em 5px;
+            padding: 12px 0;
+            border: 1px solid #ccc;
+            background: #fff;
+            font-weight: bold;
+            text-shadow: none;
+            -moz-border-radius: .6rem;
+            -webkit-border-radius: .6rem;
+            border-radius: .6rem;
+            -moz-box-shadow: 0 1px 4px rgba(0,0,0,.3);
+            -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.3);
+            box-shadow: 0 1px 4px rgba(0,0,0,.3);
+        }
+
+    #HwSxBody .HwSxPrevious,
+    #HwSxBody .HwSxStartOver 
+    {
+        margin-left: 6%;
+        width: 88%;
+        float: none;
+    }
+
+    #HwSxBody .HwSxPrevious,
+    #HwSxBody .HwSxStartOver 
+    {
+        margin: 0;
+        width: 24%;
+        float: left;
+    }
+
+    #HwSxBody .HwSxStartOver 
+    {
+        float: right;
+    }
+
+    #HwSxControls .HwSxPreviousArrow
+    {
+        display: inline;
+        font-size: 1.5em;
+    }
+
+
+    #HwSxBody .HwSxPrevious:hover,
+    #HwSxBody .HwSxStartOver:hover,
+    #HwSxBody .HwSxDispositionLinks div.HwSxHomeTreatmentLink:hover,
+    #HwSxBody .HwSxDispositionLinks div.HwSxRelatedInformationLink:hover 
+    {
+        border: 1px solid #bbb;
+        background: #dadada;
+        font-weight: bold;
+        text-shadow: 0 1px 1px #fff;
+        background-image: -webkit-linear-gradient(top,#ededed,#dadada);
+        background-image: -o-linear-gradient(top,#ededed,#dadada);
+        background-image: linear-gradient(top,#ededed,#dadada);
+    }
+
+
+    #HwSxControls .HwSxStartOver,
+    #HwSxControls .HwSxPrevious {
+        color: #101010;
+
+    }
+
+    #HwSxBody .HwSxPrevious:active,
+    #HwSxBody .HwSxPrevious:focus,
+    #HwSxBody .HwSxStartOver:active,
+    #HwSxBody .HwSxStartOver:focus,
+    #HwSxBody .HwSxDispositionLinks div a:active,
+    #HwSxBody .HwSxDispositionLinks div a:focus,
+    #HwSxBody .HwSxDispositionLinks div:active a,
+    #HwSxBody .HwSxDispositionLinks div:focus a,
+    #HwSxBody .HwSxDispositionLinks div.HwSxHomeTreatmentLink:active,
+    #HwSxBody .HwSxDispositionLinks div.HwSxHomeTreatmentLink:focus,
+    #HwSxBody .HwSxDispositionLinks div.HwSxRelatedInformationLink:active,
+    #HwSxBody .HwSxDispositionLinks div.HwSxRelatedInformationLink:focus,
+    #HwSxBody .HwSxAnswerSet .HwSxAnswer .HwSxAnswerText:active,
+    #HwSxBody .HwSxAnswerSet .HwSxAnswer .HwSxAnswerText:focus
+    {
+        background: #FF9800;
+        color: #FFF;
+    }
+
+}
